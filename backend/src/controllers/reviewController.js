@@ -1,24 +1,24 @@
-const db =
-  require("../config/db");
+import db from "../config/db.js";
 
-// ==========================
 // CREATE REVIEW
-// ==========================
 
-const createReview = (
-  req,
-  res
-) => {
+export const createReview = (req, res) => {
 
   try {
 
     const {
-
       name,
       review,
       rating
-
     } = req.body;
+
+    if (!name || !review || !rating) {
+
+      return res.status(400).json({
+        message: "All fields are required"
+      });
+
+    }
 
     const query = `
 
@@ -34,11 +34,9 @@ const createReview = (
       query,
 
       [
-
         name,
         review,
         rating
-
       ],
 
       (error, result) => {
@@ -48,10 +46,8 @@ const createReview = (
           console.log(error);
 
           return res.status(500).json({
-
             message:
               "Failed to submit review"
-
           });
 
         }
@@ -59,7 +55,6 @@ const createReview = (
         res.status(201).json({
 
           id: result.insertId,
-
           name,
           review,
           rating
@@ -77,26 +72,20 @@ const createReview = (
     console.log(error);
 
     res.status(500).json({
-
-      message:
-        "Server Error"
-
+      message: "Server Error"
     });
 
   }
 
 };
 
-// ==========================
 // GET REVIEWS
-// ==========================
 
-const getReviews = (
-  req,
-  res
-) => {
+export const getReviews = (req, res) => {
 
   try {
+
+    // LATEST 3 REVIEWS ONLY
 
     const query = `
 
@@ -104,6 +93,8 @@ const getReviews = (
       FROM reviews
 
       ORDER BY created_at DESC
+
+      LIMIT 3
 
     `;
 
@@ -118,10 +109,8 @@ const getReviews = (
           console.log(error);
 
           return res.status(500).json({
-
             message:
               "Failed to fetch reviews"
-
           });
 
         }
@@ -139,19 +128,9 @@ const getReviews = (
     console.log(error);
 
     res.status(500).json({
-
-      message:
-        "Server Error"
-
+      message: "Server Error"
     });
 
   }
-
-};
-
-module.exports = {
-
-  createReview,
-  getReviews
 
 };

@@ -1,4 +1,4 @@
-const db = require("../config/db");
+import db from "../config/db.js";
 
 
 
@@ -6,7 +6,7 @@ const db = require("../config/db");
 // CREATE SERVICE REQUEST
 // ============================================
 
-const createRequest = (req, res) => {
+export const createRequest = (req, res) => {
 
     try {
 
@@ -119,7 +119,7 @@ const createRequest = (req, res) => {
 // GET ALL SERVICE REQUESTS
 // ============================================
 
-const getRequests = (req, res) => {
+export const getRequests = (req, res) => {
 
     try {
 
@@ -179,7 +179,7 @@ const getRequests = (req, res) => {
 // UPDATE REQUEST STATUS
 // ============================================
 
-const updateRequestStatus = (req, res) => {
+export const updateRequestStatus = (req, res) => {
 
     try {
 
@@ -262,7 +262,7 @@ const updateRequestStatus = (req, res) => {
 // DELETE REQUEST
 // ============================================
 
-const deleteRequest = (req, res) => {
+export const deleteRequest = (req, res) => {
 
     try {
 
@@ -319,20 +319,5 @@ const deleteRequest = (req, res) => {
         });
 
     }
-
-};
-
-
-
-// ============================================
-// EXPORTS
-// ============================================
-
-module.exports = {
-
-    createRequest,
-    getRequests,
-    updateRequestStatus,
-    deleteRequest
 
 };

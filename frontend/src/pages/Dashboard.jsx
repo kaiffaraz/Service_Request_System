@@ -7,6 +7,7 @@ import StatsCards from "../components/StatsCards";
 import RequestSection from "../components/RequestSection";
 import BackgroundEffects from "../components/BackgroundEffects";
 
+
 import API from "../services/api";
 import { toast } from "react-toastify";
 
@@ -39,6 +40,27 @@ function Dashboard() {
   const [reviewName, setReviewName] = useState("");
   const [userReviews, setUserReviews] = useState([]);
 
+  // FETCH REVIEWS
+
+  const fetchReviews = async () => {
+
+    try {
+
+      const response =
+        await API.get("/reviews");
+
+      setUserReviews(response.data);
+
+    }
+
+    catch (error) {
+
+      console.log(error);
+
+    }
+
+  };
+
   // FETCH REQUESTS
 
   const fetchRequests = async () => {
@@ -63,6 +85,7 @@ function Dashboard() {
 
   useEffect(() => {
     fetchRequests();
+    fetchReviews();
   }, []);
 
   // DELETE REQUEST
@@ -482,14 +505,7 @@ function Dashboard() {
                       rating,
                     });
 
-                    setUserReviews([
-                      {
-                        name: reviewName,
-                        review: reviewText,
-                        rating,
-                      },
-                      ...userReviews,
-                    ]);
+                    fetchReviews();
 
                     toast.success(
                       "Feedback submitted successfully!"

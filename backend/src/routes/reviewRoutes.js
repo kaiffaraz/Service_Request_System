@@ -1,29 +1,14 @@
-const express =
-  require("express");
+import express from "express";
 
-const {
-
+import {
   createReview,
   getReviews
+} from "../controllers/reviewController.js";
 
-} = require(
-  "../controllers/reviewController"
-);
+const router = express.Router();
 
-const router =
-  express.Router();
+router.post("/", createReview);
 
-// CREATE REVIEW
-router.post(
-  "/",
-  createReview
-);
+router.get("/", getReviews);
 
-// GET REVIEWS
-router.get(
-  "/",
-  getReviews
-);
-
-module.exports =
-  router;
+export default router;

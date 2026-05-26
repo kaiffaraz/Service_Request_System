@@ -1,13 +1,10 @@
-const jwt = require("jsonwebtoken");
-
-
+import jwt from "jsonwebtoken";
 
 const protect = (req, res, next) => {
 
     try {
 
         let token;
-
 
         // CHECK AUTHORIZATION HEADER
         if (
@@ -16,8 +13,8 @@ const protect = (req, res, next) => {
         ) {
 
             // GET TOKEN
-            token = req.headers.authorization.split(" ")[1];
-
+            token =
+              req.headers.authorization.split(" ")[1];
 
             // VERIFY TOKEN
             const decoded = jwt.verify(
@@ -25,10 +22,8 @@ const protect = (req, res, next) => {
                 process.env.JWT_SECRET
             );
 
-
             // SAVE USER DATA
             req.user = decoded;
-
 
             next();
 
@@ -50,6 +45,4 @@ const protect = (req, res, next) => {
 
 };
 
-
-
-module.exports = protect;
+export default protect;
