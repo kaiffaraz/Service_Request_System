@@ -132,37 +132,55 @@ service-request-app/
 
 ## 1️⃣ Register Page
 
-![Register Page](./i1.png)
+![Register Page](./screenshots/i1.png)
 
 ---
 
 ## 2️⃣ Login Page
 
-![Login Page](./i2.png)
+![Login Page](./screenshots/i2.png)
 
 ---
 
 ## 3️⃣ Dashboard Page
 
-![Dashboard](./i3.png)
+![Dashboard](./screenshots/i3.png)
 
 ---
 
 ## 4️⃣ Create Service Request
 
-![Create Request](./screenshots/create-request.png)
+![Create Request](./screenshots/p3.1.png)
+
+
+![Create Request](./screenshots/p3.2.png)
 
 ---
 
 ## 5️⃣ Service Categories
 
-![Service Categories](./screenshots/services.png)
+![Service Categories](./screenshots/i5.png)
+
+
+![Service Categories](./screenshots/i6.png)
+
+
+![Service Categories](./screenshots/i7.png)
+
+
+![Service Categories](./screenshots/i8.png)
+
+---
+
+## 8️⃣ Request Tracking
+
+![Request Tracking](./screenshots/i9.png)
 
 ---
 
 ## 6️⃣ Customer Reviews Section
 
-![Reviews](./screenshots/reviews.png)
+![Reviews](./screenshots/i10.png)
 
 ---
 
@@ -172,41 +190,13 @@ service-request-app/
 
 ---
 
-## 8️⃣ Request Tracking
-
-![Request Tracking](./screenshots/request-tracking.png)
-
----
-
-## 9️⃣ Request Status Update
-
-![Status Update](./screenshots/status-update.png)
-
----
-
-## 🔟 Delete Request Feature
-
-![Delete Request](./screenshots/delete-request.png)
-
----
-
-## 1️⃣1️⃣ Responsive Mobile View
-
-![Responsive Design](./screenshots/mobile-view.png)
-
----
 
 ## 1️⃣2️⃣ MySQL Database Tables
 
-![Database](./screenshots/database.png)
+![Database](./screenshots/i11.png)
 
 ---
 
-## 1️⃣3️⃣ Backend Server Running
-
-![Backend Server](./screenshots/backend-server.png)
-
----
 
 # 🎥 Project Demo Video
 
@@ -215,88 +205,6 @@ service-request-app/
 [Watch Project Demo Video](https://drive.google.com/file/d/1EGRfNQ_GjiMsnxF_73VOig0genfrZ2yp/view?usp=drive_link)
 
 ---
-
-# 📁 How to Add Screenshots
-
-## STEP 1
-
-Create a folder in your project root directory:
-
-```bash
-screenshots
-```
-
----
-
-## STEP 2
-
-Add all screenshot images inside the folder.
-
-Example image names:
-
-```bash
-register-page.png
-login-page.png
-dashboard.png
-create-request.png
-services.png
-reviews.png
-chatbot.png
-request-tracking.png
-status-update.png
-delete-request.png
-mobile-view.png
-database.png
-backend-server.png
-```
-
----
-
-## STEP 3
-
-Paste the screenshots section inside your `README.md`.
-
----
-
-# 📷 Screenshot Tips
-
-For professional screenshots:
-
-- Use browser full screen
-- Keep zoom at 100%
-- Use dark VS Code theme
-- Show clean UI
-- Close unnecessary tabs
-- Use high resolution screenshots
-
----
-
-# 🎬 Recommended Demo Video Flow
-
-1. Project Introduction
-2. Register User
-3. Login User
-4. Dashboard Overview
-5. Create Service Request
-6. View Requests
-7. Update Request Status
-8. Delete Request
-9. Submit Customer Review
-10. Show Latest Reviews
-11. Show MySQL Database
-12. Show Backend Running
-13. Project Conclusion
-
----
-
-# 🌟 Bonus Tip
-
-You can also upload your screenshots directly on GitHub:
-
-1. Open GitHub repository
-2. Go to README.md
-3. Drag and drop images
-4. GitHub automatically generates image links
 
 Example:
 
