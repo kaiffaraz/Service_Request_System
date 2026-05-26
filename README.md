@@ -132,68 +132,68 @@ service-request-app/
 
 ## 1️⃣ Register Page
 
-![Register Page](./screenshots/i1.png)
+![Register Page](./Screenshots/i1.png)
 
 ---
 
 ## 2️⃣ Login Page
 
-![Login Page](./screenshots/i2.png)
+![Login Page](./Screenshots/i2.png)
 
 ---
 
 ## 3️⃣ Dashboard Page
 
-![Dashboard](./screenshots/i3.png)
+![Dashboard](./Screenshots/i3.png)
 
 ---
 
 ## 4️⃣ Create Service Request
 
-![Create Request](./screenshots/p3.1.png)
+![Create Request](./Screenshots/p3.1.png)
 
 
-![Create Request](./screenshots/p3.2.png)
+![Create Request](./Screenshots/p3.2.png)
 
 ---
 
 ## 5️⃣ Service Categories
 
-![Service Categories](./screenshots/i5.png)
+![Service Categories](./Screenshots/i5.png)
 
 
-![Service Categories](./screenshots/i6.png)
+![Service Categories](./Screenshots/i6.png)
 
 
-![Service Categories](./screenshots/i7.png)
+![Service Categories](./Screenshots/i7.png)
 
 
-![Service Categories](./screenshots/i8.png)
+![Service Categories](./Screenshots/i8.png)
 
 ---
 
 ## 8️⃣ Request Tracking
 
-![Request Tracking](./screenshots/i9.png)
+![Request Tracking](./Screenshots/i9.png)
 
 ---
 
 ## 6️⃣ Customer Reviews Section
 
-![Reviews](./screenshots/i10.png)
+![Reviews](./Screenshots/i10.png)
 
 ---
 
 ## 7️⃣ AI Assistant Chatbot
 
-![AI Assistant](./screenshots/chatbot.png)
+![AI Assistant](./Screenshots/chatbot.png)
 
 ---
 
 
 ## 1️⃣2️⃣ MySQL Database Tables
 
-![Database](./screenshots/i11.png)
+![Database](./Screenshots/i11.png)
 
 ---
 
