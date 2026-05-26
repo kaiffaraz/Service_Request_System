@@ -254,7 +254,7 @@ function RequestSection({
                       <div className="relative z-10 mt-8 overflow-hidden rounded-3xl border border-white/10">
 
                       <img
-                        src={`https://service-request-system.onrender.com/uploads/${request.image}`}
+                        src={`https://service-request-system-932c.onrender.com/uploads/${request.image}`}
                         alt="Request"
                         className="w-full h-64 object-cover group-hover:scale-105 transition duration-700"
                       />
