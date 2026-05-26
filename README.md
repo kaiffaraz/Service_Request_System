@@ -206,9 +206,5 @@ service-request-app/
 
 ---
 
-Example:
 
-```md
-
-![Dashboard](https://github.com/yourusername/project/assets/image.png)
 ```
