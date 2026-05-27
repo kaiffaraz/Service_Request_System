@@ -162,13 +162,13 @@ service-request-app/
 ![Service Categories](./Screenshots/i5.png)
 
 
-![Service Categories2](./Screenshots/i6.png)
+![Service Categories2](./Screenshots/I6.png)
 
 
-![Service Categories3](./Screenshots/i7.png)
+![Service Categories3](./Screenshots/I7.png)
 
 
-![Service Categories4](./Screenshots/i8.png)
+![Service Categories4](./Screenshots/I8.png)
 
 ---
 
@@ -186,7 +186,7 @@ service-request-app/
 
 ##  8️⃣ AI Assistant Chatbot
 
-![AI Assistant1](./Screenshots/C1.png)
+![AI Assistant1](./Screenshots/ch1.png)
 
 ---
 
