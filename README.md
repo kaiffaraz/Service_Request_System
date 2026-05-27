@@ -186,7 +186,7 @@ service-request-app/
 
 ##  8️⃣ AI Assistant Chatbot
 
-![AI Assistant1](./Screenshots/ch1.png)
+![AI Assistant1](./Screenshots/i14.png)
 
 ---
 
