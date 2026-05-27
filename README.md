@@ -153,7 +153,7 @@ service-request-app/
 ![Create Request](./Screenshots/p3.1.png)
 
 
-![Create Request](./Screenshots/p3.2.png)
+![Create Request1](./Screenshots/p3.2.png)
 
 ---
 
@@ -162,36 +162,36 @@ service-request-app/
 ![Service Categories](./Screenshots/i5.png)
 
 
-![Service Categories](./Screenshots/i6.png)
+![Service Categories2](./Screenshots/i6.png)
 
 
-![Service Categories](./Screenshots/i7.png)
+![Service Categories3](./Screenshots/i7.png)
 
 
-![Service Categories](./Screenshots/i8.png)
+![Service Categories4](./Screenshots/i8.png)
 
 ---
 
-## 8️⃣ Request Tracking
+## 6️⃣ Request Tracking
 
 ![Request Tracking](./Screenshots/i9.png)
 
 ---
 
-## 6️⃣ Customer Reviews Section
+##  7️⃣ Customer Reviews Section
 
 ![Reviews](./Screenshots/i10.png)
 
 ---
 
-## 7️⃣ AI Assistant Chatbot
+##  8️⃣ AI Assistant Chatbot
 
-![AI Assistant](./Screenshots/chatbot.png)
+![AI Assistant1](./Screenshots/C1.png)
 
 ---
 
 
-## 1️⃣2️⃣ MySQL Database Tables
+## 9️⃣ MySQL Database Tables
 
 ![Database](./Screenshots/i11.png)
 
